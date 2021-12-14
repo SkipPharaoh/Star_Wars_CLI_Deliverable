@@ -1,0 +1,132 @@
+471  mkdir star_wars
+  472  ls
+  473  cd star_wars
+  474  mkdir empire rebellion
+  475  ls
+  476  cd empire
+  477  touch darth_vader.txt
+  478  ls
+  479  echo "...heavy breathing..." >> darth_vader.txt
+  480  ls
+  481  touch emperor_palpatine.txt
+  482  mkdir death_star
+  483  ls
+  484  git mv darth_vader.txt death_star
+  485  ls
+  486  git mv empire/darth_vader.txt death_star
+  487  ls
+  488  mv darth_vader.txt death_star
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd rebellion
+  493  pwd
+  494  echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  495  ls
+  496  touch obi_wan.txt
+  497  ls
+  498  git add .
+  499  git commit -m "Act 1 completion"
+  500  git status
+  501  git add .
+  502  git status
+  503  git commit -m "Act 1 completion"
+  504  git status
+  505  ls
+  506  touch luke_skywalker.txt
+  507  ls
+  508  mkdir millenium_falcon
+  509  ls
+  510  touch han_solo.txt chewbacca.txt
+  511  ls
+  512  cd millenium_falcon
+  513  ls
+  514  cd ..
+  515  ls
+  516  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  517  ls
+  518  mv millenium_falcon/ death_star/
+  519  ls
+  520  cd ..
+  521  ls
+  522  cd rebellion
+  523  mv millenium_falcon ~/sei1213/unit1/homework/Star_Wars_CLI_Deliverable/star_wars/empire/death_star
+  524  ls
+  525  cd ..
+  526  ls
+  527  cd emp
+  528  cd empire
+  529  ls
+  530  cd death_star
+  531  ls
+  532  cd mi
+  533  git add .
+  534  cd ..
+  535  cd death_star
+  536  git commit - m "Act 2 Completion"
+  537  git add .
+  538  git commit - m "Act 2 Completion"
+  539  git status
+  540  cd ..
+  541  ls
+  542  cd rebellion
+  543  git add .
+  544  git commit -m "Act 2 completion"
+  545  cd ..
+  546  cd empire
+  547  ls
+  548  cd death_star
+  549  ls
+  550  cd millenium_falcon
+  551  ls
+  552  git status
+  553  ls
+  554  cd ..
+  555  ls
+  556  mv millenium_falcon/*
+  557  ls
+  558  mv millenium_falcon/.*
+  559  ls
+  560  cd millenium_falcon
+  561  ls
+  562  mv chewbacca.txt princess_leia.txt han_solo.txt luke_skywalker.txt obi_wan.txt ~/sei1213/unit1/homework/Star_Wars_CLI_Deliverable/star_wars/empire/death_star
+  563  ls
+  564  cd ..
+  565  ls
+  566  rm obi_wan.txt
+  567  ls
+  568  mv chewbacca.txt princess_leia.txt han_solo.txt luke_skywalker.txt ~/sei1213/unit1/homework/Star_Wars_CLI_Deliverable/star_wars/empire/death_star/millenium_falcon
+  569  ls
+  570  cd millenium_falcon
+  571  ls
+  572  cd ..
+  573  mv millenium_falcon ~/sei1213/unit1/homework/Star_Wars_CLI_Deliverable/star_wars/rebellion
+  574  ls
+  575  cd empire
+  576  ls
+  577  cd death_star
+  578  ls
+  579  mv millenium_falcon ~/sei1213/unit1/homework/Star_Wars_CLI_Deliverable/star_wars/rebellion
+  580  cd ..
+  581  ls
+  582  cd rebellion
+  583  ls
+  584  cd millenium_falcon
+  585  ls
+  586  cd ../..
+  587  ls
+  588  cd empire
+  589  ls
+  590  cd death_star
+  591  ls
+  592  mv darth_vader.txt ~/sei1213/unit1/homework/Star_Wars_CLI_Deliverable/star_wars/empire
+  593  ls
+  594  cd ..
+  595  ls
+  596  rmdir death_star
+  597  ls
+  598  rm -rf death_star
+  599  ls
+  600  cd ..
+  601  git add .
+  602  git commit -m "Act 3 Completion"
